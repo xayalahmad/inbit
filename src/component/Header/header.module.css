@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.appBar{
+    background-color: #f8f7f2;
+}
+.appBarLogo{
+    width: 70px;
+    margin: 10px 10px 10px 0;
+}
+.appBarTitle{
+    font-family: 'Anton', sans-serif !important; 
+    letter-spacing: 2px !important;
+    color: rgb(37, 37, 37);
+}

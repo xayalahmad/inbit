@@ -1,0 +1,18 @@
+.header2Container{
+    background-color: #22577a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+}
+.header2ContainerTitle{
+color: white;
+}
+.header2ContainerTitle:focus{
+    color: white;
+    }
+.navItem{
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.home_page{
+    width: 85%;
+    margin: auto;
+}
+.home_page_title{
+    margin: 20px 0 20px 0;
+}
+.card{
+    position: relative;
+}
+.card_complete{
+    font-size: 11px;
+    border-radius: 20px;
+    color:  #8A53C9;
+    background-color: #E7D2FF;
+    /* width: 30px; */
+    padding: 8px;
+    /* height: 30px; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+    right: 15px;
+    /* top: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card_text_container{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.watch_icon{
+    color: #8A53C9;
+    margin-right: 3px;
+}
+.button_text{
+    text-transform: capitalize;
+    font-size: 10px;
+}
