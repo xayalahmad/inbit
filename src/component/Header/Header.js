@@ -27,7 +27,7 @@ const Search = styled('div')(({ theme }) => ({
   marginLeft: 0,
   transition: "0.5s",
   width: '100%',
-  [theme.breakpoints.up('sm')]: {
+  [theme.breakpoints.up('xs')]: {
     marginLeft: theme.spacing(1),
     width: 'auto',
   },
@@ -64,8 +64,9 @@ export default function SearchAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-      <Link to="/"> {" "}
         <Toolbar className={styles.appBar}>
+          <div className={styles.appBarDiv}>
+          
           {/* <IconButton
             size="large"
             edge="start"
@@ -75,6 +76,9 @@ export default function SearchAppBar() {
           >
             <MenuIcon />
           </IconButton> */}
+            <Link to="/"> {" "}
+            <div className={styles.header1NavbarIcon}>
+
           <img className={styles.appBarLogo} src={logo}/>
           <Typography
             variant="h4"
@@ -82,20 +86,22 @@ export default function SearchAppBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             className={styles.appBarTitle}
-          >
+            >
             INBIT
           </Typography>
+              </div>
+            {" "} </Link>
           <Search>
             <SearchIconWrapper>
-              <SearchIcon />
+              <SearchIcon className={styles.header1SearchIcon}/>
             </SearchIconWrapper>
-            <StyledInputBase
+            <StyledInputBase className={styles.header1SearchIcon}
               placeholder="Axtar..."
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
+          </div>
         </Toolbar>
-        {" "} </Link>
       </AppBar>
     </Box>
   );

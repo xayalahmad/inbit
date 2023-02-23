@@ -8,6 +8,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from './themes/Theme.js'
 import { Catalog } from "./component/CourseCatalog/Catalog";
 import About  from "./component/About/About";
+import Footer  from "./component/Footer/Footer";
 // import Certificate  from "./component/certificate/Certificate";
 // import Course  from "./component/course/course";
 

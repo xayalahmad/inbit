@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+.aboutContainer2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+    justify-content: space-between;
+    align-items: center;    
+
+}
+.aboutContainer{
+    margin-top: 60px;
+}
+.aboutText{
+    font-family: 'Roboto', sans-serif;
+    max-width: 700px;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+.aboutImg{
+    width: 400px;
+}

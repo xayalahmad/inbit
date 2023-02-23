@@ -1,18 +1,70 @@
-.header2Container{
-    background-color: #22577a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    padding: 0 20px;
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+.header2Container {
+  background-color: #22577a;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
 }
-.header2ContainerTitle{
-color: white;
+.header2ContainerDev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
 }
-.header2ContainerTitle:focus{
+.header2ContainerTitle {
+  color: white;
+  padding: 12px 10px;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.header2ContainerTitle:hover {
+  background-color: #17425f;
+}
+.navItem {
+  text-align: center;
+} */
+
+.header2Container1 {
+  background-color: #22577a;
+}
+
+.header2Container2 {
+  width: 78%;
+  margin: auto;
+  /* padding: 0; */
+}
+.header2Box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.Header2Icon{
     color: white;
-    }
-.navItem{
-    text-align: center;
+}
+.header2TitleSm{
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 10px 10px;
+    width: 100%;
+    color: black;
+}
+.header2TitleSm:hover{
+    background-color: #17425f;
+    color: white;
+
+}
+.header2Title {
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 10px 10px;
+  /* width: 100%; */
+  color: white;
+}
+.header2Title:hover {
+  background-color: #17425f;
+
 }
