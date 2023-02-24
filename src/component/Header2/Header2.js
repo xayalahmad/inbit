@@ -97,7 +97,7 @@ function DrawerAppBar(props) {
               {" "}
               <div>Təlim/Tədris</div>
             </Link>
-            <Link className={styles.header2TitleSm} to="/about">
+            <Link className={styles.header2TitleSm} to="/contact">
               {" "}
               <div>Əlaqə</div>
             </Link>

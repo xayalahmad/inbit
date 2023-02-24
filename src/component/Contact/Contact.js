@@ -47,7 +47,7 @@ export default function Contact() {
                 <WatchLaterIcon className={styles.contactIcon}/> <div className={styles.contactTitle}>İş cədvəli</div>
             </Typography>
                 <div className={styles.contactDescription}>10:00 - 19:00
-(bazar ertəsi - cümə)
+(bazar ertəsi - cümə) <br/>
 İstirahət günləri: şənbə, bazar</div>
           </div>
           <div className={styles.gridItem} item >
