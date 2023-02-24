@@ -25,7 +25,6 @@ export function App() {
           <Route exact path="/contact" element={<Contact />} />
           {/* <Route exact path="/course" element={<Course />} /> */}
         </Routes>
-        <Contact/>
       </ThemeProvider>
     </BrowserRouter>
   );
