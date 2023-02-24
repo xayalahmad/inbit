@@ -149,11 +149,26 @@ function DrawerAppBar(props) {
               {" "}
               <div className={styles.header2Title}>Haqqımızda</div>{" "}
             </Link>
-            <div className={styles.header2Title}>Fəaliyyət</div>
-            <div className={styles.header2Title}>Tərəfdaşlar</div>
-            <div className={styles.header2Title}>Xidmətlər</div>
-            <div className={styles.header2Title}>Təlim/Tədris</div>
-            <div className={styles.header2Title}>Əlaqə</div>
+            <Link  to="/about">
+              {" "}
+              <div className={styles.header2Title}>Fəaliyyət</div>{" "}
+            </Link>
+            <Link  to="/about">
+              {" "}
+              <div className={styles.header2Title}>Tərəfdaşlar</div>{" "}
+            </Link>
+            <Link  to="/about">
+              {" "}
+              <div className={styles.header2Title}>Xidmətlər</div>{" "}
+            </Link>
+            <Link  to="/about">
+              {" "}
+              <div className={styles.header2Title}>Təlim/Tədris</div>{" "}
+            </Link>
+            <Link  to="/contact">
+              {" "}
+              <div className={styles.header2Title}>Əlaqə</div>{" "}
+            </Link>
           </div>
         </Box>
       </div>

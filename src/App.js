@@ -8,7 +8,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { theme } from './themes/Theme.js'
 import { Catalog } from "./component/CourseCatalog/Catalog";
 import About  from "./component/About/About";
-import Footer  from "./component/Footer/Footer";
+import Contact  from "./component/Contact/Contact";
 // import Certificate  from "./component/certificate/Certificate";
 // import Course  from "./component/course/course";
 
@@ -22,9 +22,10 @@ export function App() {
           {/* <Route exact path="/certificate" element={<Certificate />} /> */}
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
+          <Route exact path="/contact" element={<Contact />} />
           {/* <Route exact path="/course" element={<Course />} /> */}
         </Routes>
-        {/* <Footer /> */}
+        <Contact/>
       </ThemeProvider>
     </BrowserRouter>
   );

@@ -1,0 +1,52 @@
+.contactRow{
+    display: flex;
+    align-items: center;
+}
+.contactIcon{
+    margin-right: 5px;
+}
+.contactTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contactDescription{
+    max-width: 400px;
+}
+.facebookIcon:hover{
+    color: #4267B2;
+}
+.Instagramcon:hover{
+    color: #d6249f;
+}
+.linkedInIcon:hover{
+    color: #0e76a8;
+}
+.whatsAppIcon:hover{
+    color: #25D366;
+}
+.contactContainer{
+    /* background-color: #4267B2; */
+    
+}
+.grid{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: baseline;
+
+    /* margin-bottom: 40px; */
+}
+.gridItem{
+    margin: 20px;
+    width: 50%;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .grid{
+        flex-direction: column;
+    }
+}

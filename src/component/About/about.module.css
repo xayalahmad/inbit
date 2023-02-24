@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 .aboutContainer2{
     display: flex;
-    width: 80%;
+    width: 77%;
     margin: auto;
     
     justify-content: space-between;
@@ -13,11 +13,34 @@
 }
 .aboutText{
     font-family: 'Roboto', sans-serif;
-    max-width: 700px;
-    font-size: 20px;
+    max-width: 670px;
+    font-size: 16px;
     line-height: 25px;
+    margin-bottom: 20px;
 
 }
 .aboutImg{
     width: 400px;
+    margin-bottom: 20px;
+
+}
+
+@media only screen and (max-width: 1300px){
+    .aboutContainer2{
+        flex-direction: column;
+    /* width: 100%; */
+
+    }
+    .aboutText{
+        /* font-family: 'Roboto', sans-serif; */
+        max-width: 1000px;
+        /* font-size: 16px; */
+        /* line-height: 25px; */
+    
+    }
+}
+@media only screen and (max-width: 600px){
+    .aboutImg{
+        display: none;
+    }
 }
