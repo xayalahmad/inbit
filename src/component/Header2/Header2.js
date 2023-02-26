@@ -85,7 +85,7 @@ function DrawerAppBar(props) {
               {" "}
             <div>Fəaliyyət</div>
             </Link>
-            <Link className={styles.header2TitleSm} to="/about">
+            <Link className={styles.header2TitleSm} to="/partner">
               {" "}
               <div>Tərəfdaşlar</div>
             </Link>
@@ -153,7 +153,7 @@ function DrawerAppBar(props) {
               {" "}
               <div className={styles.header2Title}>Fəaliyyət</div>{" "}
             </Link>
-            <Link  to="/about">
+            <Link  to="/partner">
               {" "}
               <div className={styles.header2Title}>Tərəfdaşlar</div>{" "}
             </Link>

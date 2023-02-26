@@ -49,4 +49,8 @@
     .grid{
         flex-direction: column;
     }
+    .gridItem{
+        /* margin: 20px; */
+        width: 80%;
+    }
 }

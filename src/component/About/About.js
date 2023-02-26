@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import about from "../../img/about.png"
 import styles from "../About/about.module.css"
-import Contact from '../Contact/Contact';
 
 export default function BasicTextFields() {
   return (
@@ -19,7 +18,6 @@ export default function BasicTextFields() {
       </div>
       <img  className={styles.aboutImg} src={about}/>
     </div>
-    <Contact/>
     </div>
   );
 }

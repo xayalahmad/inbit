@@ -1,0 +1,88 @@
+.sliderContainer{
+    background-color: #F8F7F2;
+
+}
+
+.cards{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    border-bottom: 2px solid #252525;
+}
+.slidetTitleText{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.card{
+    /* width: 100px !important; */
+    /* margin: 0 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    margin: auto;
+}
+.sliderImg{
+    width: 140px;
+    /* height: 140px; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.partnerInfoContainer1{
+    background-color: #F8F7F2;
+}
+.partnerInfoContainer2{
+    width: 80%;
+    margin: auto;
+}
+.partnerInfoArea{
+    
+    margin: 40px;
+    display: flex;
+    padding-bottom: 40px;
+}
+.partnerImg{
+    width: 250px;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.partnerTitle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #919191;
+    display: inline;
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    .partnerInfoArea{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .partnerTitle{
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+        border: 0;
+    }
+    .partnerDesc{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .partnerImg{
+        width: 200px;
+    }
+  }

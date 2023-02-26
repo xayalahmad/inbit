@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "image": "https://i0.wp.com/sybyl.com/wp-content/uploads/2020/02/huawei-logo.png?ssl=1",
+        "title": "Huawei",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in."
+    },
+    {
+        "id": 1,
+        "image": "https://cdn3.iconfinder.com/data/icons/picons-social/57/56-apple-512.png",
+        "title": "Apple",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in."
+    },
+    {
+        "id": 2,
+        "image": "https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png",
+        "title": "Facebook",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in."
+    },
+    {
+        "id": 3,
+        "image": "https://images.pngnice.com/download/2007/Pepsi-Logo-PNG-Clipart.png",
+        "title": "Pepsi",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in."
+    },
+    {
+        "id": 4,
+        "image": "https://assets.stickpng.com/thumbs/58428cc1a6515b1e0ad75ab1.png",
+        "title": "Starbucks",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in."
+    },
+    {
+        "id": 5,
+        "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png",
+        "title": "Twitter",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in."
+    }
+]
