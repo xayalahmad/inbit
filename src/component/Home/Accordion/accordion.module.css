@@ -1,0 +1,22 @@
+.accordionContainer{
+    border-bottom: 2px solid #20201F;
+    /* margin: 20px 0; */
+    padding: 20px 0;
+    background-color: #F8F7F2 !important;
+
+}
+.accordionContainer1{
+    width: 80%;
+    margin: auto;
+    /* padding: 20px 0; */
+    
+}
+.accordion{
+    background-color: #F8F7F2 !important;
+    color: #20201F !important;
+    /* border-radius: 10px; */
+}
+.accordion2{
+    background-color: #ecebe7 !important;
+    color: #20201F !important;
+}
