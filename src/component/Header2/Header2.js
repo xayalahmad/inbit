@@ -16,7 +16,7 @@
 //         {/* </Button> */}
 //             {" "} </Link>
 //       {/* <Button variant="text"> */}
-//         <div className={styles.header2ContainerTitle}>Fəaliyyət</div>
+//         <div className={styles.header2ContainerTitle}>Layihələr</div>
 //         {/* </Button> */}
 //       {/* <Button variant="text"> */}
 //         <div className={styles.header2ContainerTitle}>Tərəfdaşlar</div>
@@ -83,13 +83,13 @@ function DrawerAppBar(props) {
             </Link>
             <Link className={styles.header2TitleSm} to="/about">
               {" "}
-            <div>Fəaliyyət</div>
+            <div>Layihələr</div>
             </Link>
             <Link className={styles.header2TitleSm} to="/partner">
               {" "}
               <div>Tərəfdaşlar</div>
             </Link>
-            <Link className={styles.header2TitleSm} to="/about">
+            <Link className={styles.header2TitleSm} to="/service">
               {" "}
               <div>Xidmətlər</div>
             </Link>
@@ -151,13 +151,13 @@ function DrawerAppBar(props) {
             </Link>
             <Link  to="/about">
               {" "}
-              <div className={styles.header2Title}>Fəaliyyət</div>{" "}
+              <div className={styles.header2Title}>Layihələr</div>{" "}
             </Link>
             <Link  to="/partner">
               {" "}
               <div className={styles.header2Title}>Tərəfdaşlar</div>{" "}
             </Link>
-            <Link  to="/about">
+            <Link  to="/service">
               {" "}
               <div className={styles.header2Title}>Xidmətlər</div>{" "}
             </Link>

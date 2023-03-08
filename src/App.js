@@ -10,6 +10,7 @@ import { Catalog } from "./component/CourseCatalog/Catalog";
 import About  from "./component/About/About";
 import Contact  from "./component/Contact/Contact";
 import Partner from "./component/Partner/Slider"
+import Service from './component/Service/Service'
 import Home from "./component/Home/Home"
 // import Certificate  from "./component/certificate/Certificate";
 // import Course  from "./component/course/course";
@@ -26,6 +27,7 @@ export function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/partner" element={<Partner />} />
+          <Route exact path="/service" element={<Service />} />
           {/* <Route exact path="/course" element={<Course />} /> */}
         </Routes>
       </ThemeProvider>
