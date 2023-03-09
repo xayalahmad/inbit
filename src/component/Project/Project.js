@@ -16,7 +16,7 @@ export default function Project() {
                   </Typography>
         <div className={styles.projectcontainer3}>
           {data.map((q, i) => (
-            <Card className={styles.card}>
+            <Card key={i} className={styles.card}>
               <CardActionArea>
                 <CardMedia
                   component="img"
