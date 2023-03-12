@@ -6,6 +6,9 @@
     width: 80%;
     margin: auto;
 }
+.container{
+    padding: 20px 0;
+}
 .item{
     border-radius: 10px;
     transition: all 0.2s;
@@ -27,7 +30,7 @@
 }
 
 .title{
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-bottom: 20px;
     font-size: 18px;
     margin-left: 20px;
@@ -41,7 +44,7 @@
     padding-top: 40px;
 }
 .cardContainer2{
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -53,7 +56,7 @@
     background-color: #99bcd4;
     border-radius: 10px;
     padding: 30px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 10px;
 }
 .cardTitle{
@@ -62,14 +65,14 @@
     font-weight: bold;
 }
 .cardContainer4{
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .cardTitle2{
-    width: 80%;
+    /* width: 80%; */
     margin: 40px auto 20px auto;
     font-size: 18px;
     background-color: #d2d6d9;

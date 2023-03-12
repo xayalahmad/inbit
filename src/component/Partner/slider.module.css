@@ -41,14 +41,14 @@
 }
 .partnerInfoArea{
     
-    margin: 40px;
+    margin: 40px 40px 0 40px;
     display: flex;
     padding-bottom: 40px;
 }
 .partnerImg{
     width: 250px;
     height: fit-content;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .partnerTitle{

@@ -8,6 +8,8 @@ export default function Service(){
         <>
         <div className={styles.container1}>
             <div className={styles.container2}>
+        <Card/>
+
         <div className={styles.container}>
             {data1.map((q, i) => (<div className={styles.item} key={i}>{i+1}. {q.service}</div>))}
         </div>
@@ -30,7 +32,7 @@ export default function Service(){
 
         </div>       
              </div>
-        <Card/>
+
         </div>
         </>
     )
